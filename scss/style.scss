@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 41%, 84%);
+}
+
+.main-card{
+    width: 60%;
+}
+// .btn{
+//     background-color: hsl(183, 100%, 15%);
+// }
+.btn:hover{
+    cursor: pointer;
+    background-color: hsl(172, 67%, 45%);
+}
+.d-grid .btn:active{
+    cursor: pointer;
+    background-color:  hsl(185, 41%, 84%);
+}
+
+.space{
+    letter-spacing: 0.5rem;
+}
+// 895
+@media only screen and (max-width: 895px){
+    .main-card{
+        width: 100%;
+        margin: 1rem;
+    }
+}
+@media only screen and (max-width: 577px){
+    .second-card{
+        margin-top: 2rem;
+    }
+}
